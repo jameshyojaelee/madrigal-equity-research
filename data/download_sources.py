@@ -10,7 +10,11 @@ import requests
 import yaml
 
 PLACEHOLDER_URL = "TODO_FILL_IN_MANUALLY"
-USER_AGENT = "madrigal-equity-research/0.1 (contact: example@example.com)"
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 "
+    "madrigal-equity-research/0.1 (contact: example@example.com)"
+)
 REQUEST_TIMEOUT = (10, 180)  # connect, read timeouts in seconds
 
 
