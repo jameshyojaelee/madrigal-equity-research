@@ -1,6 +1,6 @@
-# Madrigal (MDGL) – Educational Equity Research Project
+# Madrigal (MDGL) – Equity Research Project
 
-This repository hosts an educational biotech equity research-style project on Madrigal Pharmaceuticals (MDGL), focused on metabolic dysfunction associated steatohepatitis (MASH/MASLD) and Rezdiffra (resmetirom); it exists solely for learning and portfolio purposes and should not be treated as investment advice.
+This repository contains a biotech equity research-style project on Madrigal Pharmaceuticals (MDGL), focused on metabolic dysfunction associated steatohepatitis (MASH/MASLD) and Rezdiffra (resmetirom); it exists solely for my own learning and portfolio purposes and should not be treated as investment advice.
 
 ## Objectives
 - Build a coverage-style initiation report.
@@ -23,4 +23,4 @@ This repository hosts an educational biotech equity research-style project on Ma
 ## Disclaimers
 - This work is not investment advice.
 - No guarantee of accuracy or completeness is provided.
-- The author may hold no position in MDGL; this project is purely educational.
+- I hold no position in MDGL; this project is purely educational.
