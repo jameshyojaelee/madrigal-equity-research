@@ -71,18 +71,18 @@ sources:
     notes: Track event-driven outcomes readout timing for catalyst calendar.
   - id: mdgl_investor_presentation_h1
     category: corporate_presentation
-    description: Madrigal investor presentation – Q1 2025 results deck
+    description: Madrigal investor presentation – June 2022 strategic overview
     agency_or_origin: Company IR
-    url: "https://ir.madrigalpharma.com/static-files/5e3a8be1-ad1d-49d6-a679-25163ac071d4"
-    local_path: corporate/mdgl_investor_presentation_q1_2025.pdf
-    notes: Contains launch dashboards and reimbursement talking points.
+    url: "https://static.seekingalpha.com/uploads/sa_presentations/674/84674/original.pdf"
+    local_path: corporate/mdgl_investor_presentation_june2022.pdf
+    notes: Corporate deck hosted via Seeking Alpha; highlights thesis framing and assumptions.
   - id: mdgl_investor_presentation_h2
     category: corporate_presentation
-    description: Madrigal investor presentation – Q2 2025 results deck
+    description: Madrigal AASLD 2024 patient engagement / corporate update slides
     agency_or_origin: Company IR
-    url: "https://ir.madrigalpharma.com/static-files/de6afb62-d8f7-4c81-ab36-25714e924681"
-    local_path: corporate/mdgl_investor_presentation_q2_2025.pdf
-    notes: Updated KPIs plus scenario commentary; useful for model calibration.
+    url: "https://www.forumresearch.org/storage/documents/2024/PEDDLE_AASLD/frates_aasld%20tlm%20speaker%20slides%20-%20peddle%20presentation%20from%20madrigal.pdf"
+    local_path: corporate/mdgl_patient_engagement_aasld2024.pdf
+    notes: Conference slides referencing commercial build and positioning.
   - id: mdgl_earnings_call_q2_2024
     category: press_release
     description: Q2 2024 earnings call transcript
