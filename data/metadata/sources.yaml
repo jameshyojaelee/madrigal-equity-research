@@ -3,86 +3,97 @@ sources:
     category: sec_filing
     description: Madrigal Form 10-K for FY 2024
     agency_or_origin: SEC
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: sec/mdgl_10k_2024.pdf
-    notes: Annual filing with audited financials and pipeline disclosures.
+    url: "https://www.sec.gov/Archives/edgar/data/1157601/000162828024007376/0001628280-24-007376-index.htm"
+    local_path: sec/mdgl_10k_2024.html
+    notes: Annual filing with audited financials, rNPV context, and pipeline disclosures.
   - id: mdgl_10q_recent
     category: sec_filing
-    description: Most recent Madrigal Form 10-Q
+    description: Most recent Madrigal Form 10-Q (Q3 2025)
     agency_or_origin: SEC
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: sec/mdgl_10q_recent.pdf
-    notes: Quarterly update with launch metrics and cash.
+    url: "https://www.sec.gov/Archives/edgar/data/1157601/000162828025048559/0001628280-25-048559-index.htm"
+    local_path: sec/mdgl_10q_2025_q3.html
+    notes: Provides updated launch KPIs, cash runway, and guidance.
   - id: mdgl_key_8k
     category: sec_filing
-    description: Key 8-K detailing material clinical or regulatory update
+    description: Key 8-K covering results of operations (Feb 26 2025)
     agency_or_origin: SEC
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: sec/mdgl_key_8k.pdf
-    notes: Placeholder for major event 8-K filings.
+    url: "https://www.sec.gov/Archives/edgar/data/1157601/000119312525035787/0001193125-25-035787-index.htm"
+    local_path: sec/mdgl_8k_rezdiffra_update.html
+    notes: Use for rapid reference when major clinical or commercial events are disclosed.
   - id: rezdiffra_us_label
     category: regulatory_label
     description: Rezdiffra US Prescribing Information (FDA label)
     agency_or_origin: FDA
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: regulatory/rezdiffra_uspil.pdf
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217785s000lbl.pdf"
+    local_path: regulatory/rezdiffra_us_label.pdf
+    notes: Core label with indications, dosing, warnings; cite in report/notes.
   - id: rezdiffra_fda_review
     category: regulatory_review
-    description: FDA multi-discipline review or summary basis of approval
+    description: FDA multi-discipline review / approval package (NDA 217785)
     agency_or_origin: FDA
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: regulatory/rezdiffra_fda_review.pdf
+    url: "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217785Orig1s000TOC.cfm"
+    local_path: regulatory/rezdiffra_fda_review.html
+    notes: Contains efficacy/safety review, statistical memos, and labeling negotiation history.
   - id: rezdiffra_ema_epar
     category: regulatory_review
     description: EMA EPAR for Rezdiffra
     agency_or_origin: EMA
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: regulatory/rezdiffra_epar.pdf
+    url: "https://www.ema.europa.eu/en/medicines/human/EPAR/rezdiffra"
+    local_path: regulatory/rezdiffra_ema_epar.html
+    notes: Tracks EU benefit-risk assessment once published; good for comparator insights.
   - id: maestro_nash_publication
     category: clinical_trial
-    description: MAESTRO NASH pivotal trial publication
-    agency_or_origin: Journal publication
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: clinical/maestro_nash_publication.pdf
+    description: MAESTRO NASH pivotal trial publication (NEJM 2024)
+    agency_or_origin: New England Journal of Medicine
+    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2309000"
+    local_path: clinical/maestro_nash_publication.html
+    notes: Cite for efficacy/safety tables and subgroup analyses.
   - id: ctgov_maestro_nash
     category: clinical_trial
-    description: ClinicalTrials.gov entry for MAESTRO NASH
+    description: ClinicalTrials.gov entry for MAESTRO NASH (NCT03900429)
     agency_or_origin: ClinicalTrials.gov
-    url: "TODO_FILL_IN_MANUALLY"
+    url: "https://clinicaltrials.gov/study/NCT03900429"
     local_path: clinical/ctgov_maestro_nash.html
+    notes: Source for official design, endpoints, and status updates.
   - id: ctgov_maestro_nafld1
     category: clinical_trial
-    description: ClinicalTrials.gov entry for MAESTRO NAFLD-1
+    description: ClinicalTrials.gov entry for MAESTRO NAFLD-1 (NCT04197479)
     agency_or_origin: ClinicalTrials.gov
-    url: "TODO_FILL_IN_MANUALLY"
+    url: "https://clinicaltrials.gov/study/NCT04197479"
     local_path: clinical/ctgov_maestro_nafld1.html
+    notes: Documents safety/biomarker study that informs launch assumptions.
   - id: ctgov_maestro_nash_outcomes
     category: clinical_trial
-    description: ClinicalTrials.gov entry for MAESTRO NASH Outcomes
+    description: ClinicalTrials.gov entry for MAESTRO NASH Outcomes (NCT05500222)
     agency_or_origin: ClinicalTrials.gov
-    url: "TODO_FILL_IN_MANUALLY"
+    url: "https://clinicaltrials.gov/study/NCT05500222"
     local_path: clinical/ctgov_maestro_nash_outcomes.html
+    notes: Track event-driven outcomes readout timing for catalyst calendar.
   - id: mdgl_investor_presentation_h1
     category: corporate_presentation
-    description: Madrigal investor presentation placeholder (1H)
+    description: Madrigal investor presentation – Q1 2025 results deck
     agency_or_origin: Company IR
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: corporate/mdgl_investor_presentation_h1.pdf
+    url: "https://ir.madrigalpharma.com/static-files/5e3a8be1-ad1d-49d6-a679-25163ac071d4"
+    local_path: corporate/mdgl_investor_presentation_q1_2025.pdf
+    notes: Contains launch dashboards and reimbursement talking points.
   - id: mdgl_investor_presentation_h2
     category: corporate_presentation
-    description: Madrigal investor presentation placeholder (2H)
+    description: Madrigal investor presentation – Q2 2025 results deck
     agency_or_origin: Company IR
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: corporate/mdgl_investor_presentation_h2.pdf
-  - id: mdgl_earnings_call_q1
+    url: "https://ir.madrigalpharma.com/static-files/de6afb62-d8f7-4c81-ab36-25714e924681"
+    local_path: corporate/mdgl_investor_presentation_q2_2025.pdf
+    notes: Updated KPIs plus scenario commentary; useful for model calibration.
+  - id: mdgl_earnings_call_q2_2024
     category: press_release
-    description: Earnings call transcript placeholder (Q1)
-    agency_or_origin: Company IR
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: earnings/mdgl_earnings_call_q1.pdf
-  - id: mdgl_earnings_call_q3
+    description: Q2 2024 earnings call transcript
+    agency_or_origin: Seeking Alpha
+    url: "https://seekingalpha.com/article/4711556-madrigal-pharmaceuticals-inc-mdgl-q2-2024-earnings-call-transcript"
+    local_path: earnings/mdgl_q2_2024_transcript.html
+    notes: Transcript of August 7, 2024 call; highlights first full quarter of launch updates.
+  - id: mdgl_earnings_call_q3_2024
     category: press_release
-    description: Earnings call transcript placeholder (Q3)
-    agency_or_origin: Company IR
-    url: "TODO_FILL_IN_MANUALLY"
-    local_path: earnings/mdgl_earnings_call_q3.pdf
+    description: Q3 2024 earnings call transcript
+    agency_or_origin: Seeking Alpha
+    url: "https://seekingalpha.com/article/4731686-madrigal-pharmaceuticals-inc-mdgl-q3-2024-earnings-call-transcript"
+    local_path: earnings/mdgl_q3_2024_transcript.html
+    notes: Transcript of October 31, 2024 call; includes commentary on commercialization progress and outcomes trial.
