@@ -1,0 +1,20 @@
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+
+# Build and packaging
+*.egg-info/
+dist/
+build/
+
+# Project artifacts
+data/raw/
+data/external/
+model/*.xlsx
+figures/generated/
+report/*.pdf
+prompts.md

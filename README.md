@@ -1,14 +1,26 @@
-# Madrigal Equity Research Repository
+# Madrigal (MDGL) – Educational Equity Research Project
 
-## Executive Summary
-- This workspace collects the key artifacts for the Madrigal hit-and-run equity research effort.
-- Each top-level directory captures a logical deliverable: initiation report, rNPV modeling, memo notes, datasets, analytical scripts, and supporting figures.
-- Keeping this structure makes it easy to hand off findings or iterate on any part of the story without losing context.
+This repository hosts an educational biotech equity research-style project on Madrigal Pharmaceuticals (MDGL), focused on metabolic dysfunction associated steatohepatitis (MASH/MASLD) and Rezdiffra (resmetirom); it exists solely for learning and portfolio purposes and should not be treated as investment advice.
 
-## Table of Contents
-1. **report/** – PDF of the initiation report alongside any meeting notes or annotations.
-2. **model/** – Exported rNPV model files such as Excel workbooks or Sheets downloads.
-3. **notes/** – Short equity-research style memos summarizing catalysts, risks, or updates.
-4. **data/** – Public datasets, tracked assumptions, and citation lists that back the model.
-5. **analysis/** – Code assets, Python or R notebooks, and helper scripts used in analysis.
-6. **figures/** – Pipeline maps, trial diagrams, scenario charts, and other visuals.
+## Objectives
+- Build a coverage-style initiation report.
+- Build a transparent rNPV model (Excel/Sheets).
+- Produce 2–3 short ER-style notes.
+
+## Repository structure
+- `report/` – report drafts, outlines, and final PDF.
+- `model/` – rNPV model files and model-building scripts.
+- `notes/` – short ER-style notes (event-driven, earnings, trial read-through).
+- `data/` – raw and processed data, download scripts, and metadata.
+- `analysis/` – notebooks, analysis scripts, and templates.
+- `figures/` – generated figures for report and notes.
+
+## Getting started
+- Recommended Python version: 3.10 or newer.
+- Create a virtual environment (e.g., `python -m venv .venv && source .venv/bin/activate`).
+- Install dependencies once `requirements.txt` is populated: `pip install -r requirements.txt`.
+
+## Disclaimers
+- This work is not investment advice.
+- No guarantee of accuracy or completeness is provided.
+- The author may hold no position in MDGL; this project is purely educational.

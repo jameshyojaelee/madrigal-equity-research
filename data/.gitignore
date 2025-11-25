@@ -1,0 +1,5 @@
+raw/
+external/
+!metadata/
+!processed/
+processed/*.csv

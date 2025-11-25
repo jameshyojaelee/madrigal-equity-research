@@ -1,0 +1,88 @@
+sources:
+  - id: mdgl_10k_2024
+    category: sec_filing
+    description: Madrigal Form 10-K for FY 2024
+    agency_or_origin: SEC
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: sec/mdgl_10k_2024.pdf
+    notes: Annual filing with audited financials and pipeline disclosures.
+  - id: mdgl_10q_recent
+    category: sec_filing
+    description: Most recent Madrigal Form 10-Q
+    agency_or_origin: SEC
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: sec/mdgl_10q_recent.pdf
+    notes: Quarterly update with launch metrics and cash.
+  - id: mdgl_key_8k
+    category: sec_filing
+    description: Key 8-K detailing material clinical or regulatory update
+    agency_or_origin: SEC
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: sec/mdgl_key_8k.pdf
+    notes: Placeholder for major event 8-K filings.
+  - id: rezdiffra_us_label
+    category: regulatory_label
+    description: Rezdiffra US Prescribing Information (FDA label)
+    agency_or_origin: FDA
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: regulatory/rezdiffra_uspil.pdf
+  - id: rezdiffra_fda_review
+    category: regulatory_review
+    description: FDA multi-discipline review or summary basis of approval
+    agency_or_origin: FDA
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: regulatory/rezdiffra_fda_review.pdf
+  - id: rezdiffra_ema_epar
+    category: regulatory_review
+    description: EMA EPAR for Rezdiffra
+    agency_or_origin: EMA
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: regulatory/rezdiffra_epar.pdf
+  - id: maestro_nash_publication
+    category: clinical_trial
+    description: MAESTRO NASH pivotal trial publication
+    agency_or_origin: Journal publication
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: clinical/maestro_nash_publication.pdf
+  - id: ctgov_maestro_nash
+    category: clinical_trial
+    description: ClinicalTrials.gov entry for MAESTRO NASH
+    agency_or_origin: ClinicalTrials.gov
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: clinical/ctgov_maestro_nash.html
+  - id: ctgov_maestro_nafld1
+    category: clinical_trial
+    description: ClinicalTrials.gov entry for MAESTRO NAFLD-1
+    agency_or_origin: ClinicalTrials.gov
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: clinical/ctgov_maestro_nafld1.html
+  - id: ctgov_maestro_nash_outcomes
+    category: clinical_trial
+    description: ClinicalTrials.gov entry for MAESTRO NASH Outcomes
+    agency_or_origin: ClinicalTrials.gov
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: clinical/ctgov_maestro_nash_outcomes.html
+  - id: mdgl_investor_presentation_h1
+    category: corporate_presentation
+    description: Madrigal investor presentation placeholder (1H)
+    agency_or_origin: Company IR
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: corporate/mdgl_investor_presentation_h1.pdf
+  - id: mdgl_investor_presentation_h2
+    category: corporate_presentation
+    description: Madrigal investor presentation placeholder (2H)
+    agency_or_origin: Company IR
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: corporate/mdgl_investor_presentation_h2.pdf
+  - id: mdgl_earnings_call_q1
+    category: press_release
+    description: Earnings call transcript placeholder (Q1)
+    agency_or_origin: Company IR
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: earnings/mdgl_earnings_call_q1.pdf
+  - id: mdgl_earnings_call_q3
+    category: press_release
+    description: Earnings call transcript placeholder (Q3)
+    agency_or_origin: Company IR
+    url: "TODO_FILL_IN_MANUALLY"
+    local_path: earnings/mdgl_earnings_call_q3.pdf
