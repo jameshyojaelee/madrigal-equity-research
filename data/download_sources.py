@@ -11,6 +11,7 @@ import yaml
 
 PLACEHOLDER_URL = "TODO_FILL_IN_MANUALLY"
 USER_AGENT = "madrigal-equity-research/0.1 (contact: example@example.com)"
+REQUEST_TIMEOUT = (10, 180)  # connect, read timeouts in seconds
 
 
 def load_sources(config_path: Path) -> List[Dict]:
@@ -33,7 +34,7 @@ def download_one(session: requests.Session, source: Dict, raw_root: Path, force:
         response = session.get(
             source["url"],
             stream=True,
-            timeout=60,
+            timeout=REQUEST_TIMEOUT,
             headers={"User-Agent": USER_AGENT},
         )
         response.raise_for_status()

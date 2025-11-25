@@ -45,9 +45,9 @@ sources:
     category: clinical_trial
     description: MAESTRO NASH pivotal trial publication (NEJM 2024)
     agency_or_origin: New England Journal of Medicine
-    url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2309000"
+    url: "https://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2309000"
     local_path: clinical/maestro_nash_publication.html
-    notes: Cite for efficacy/safety tables and subgroup analyses.
+    notes: Cite for efficacy/safety tables and subgroup analyses; proxied through r.jina.ai for easier downloading.
   - id: ctgov_maestro_nash
     category: clinical_trial
     description: ClinicalTrials.gov entry for MAESTRO NASH (NCT03900429)
@@ -87,13 +87,13 @@ sources:
     category: press_release
     description: Q2 2024 earnings call transcript
     agency_or_origin: Seeking Alpha
-    url: "https://seekingalpha.com/article/4711556-madrigal-pharmaceuticals-inc-mdgl-q2-2024-earnings-call-transcript"
+    url: "https://r.jina.ai/https://seekingalpha.com/article/4711556-madrigal-pharmaceuticals-inc-mdgl-q2-2024-earnings-call-transcript"
     local_path: earnings/mdgl_q2_2024_transcript.html
-    notes: Transcript of August 7, 2024 call; highlights first full quarter of launch updates.
+    notes: Transcript of August 7 2024 call; proxied copy to avoid paywall blocks.
   - id: mdgl_earnings_call_q3_2024
     category: press_release
     description: Q3 2024 earnings call transcript
     agency_or_origin: Seeking Alpha
-    url: "https://seekingalpha.com/article/4731686-madrigal-pharmaceuticals-inc-mdgl-q3-2024-earnings-call-transcript"
+    url: "https://r.jina.ai/https://seekingalpha.com/article/4731686-madrigal-pharmaceuticals-inc-mdgl-q3-2024-earnings-call-transcript"
     local_path: earnings/mdgl_q3_2024_transcript.html
-    notes: Transcript of October 31, 2024 call; includes commentary on commercialization progress and outcomes trial.
+    notes: Transcript of October 31 2024 call; proxied copy for easy download.
